@@ -1,4 +1,4 @@
 # onnmyoji
-script for mobile game
+scripts for mobile game
 
 just for iphone 5s
