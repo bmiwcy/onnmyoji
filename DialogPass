@@ -1,0 +1,122 @@
+function dot3()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0xfde8e8,"-6|-7|0x2e1714,12|-11|0x1c130f,10|13|0x18110d,-10|16|0x12100c,13|23|0x12100c", 95, 10, 10, 1135, 490)
+if x>-1 then
+toast("dot3!!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+end
+
+
+function question()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0xfcebd7,"-10|-7|0x4a3908,-2|-30|0x5c4707,10|-18|0xf8e6cf,14|3|0x12100c,-2|15|0xffefdd", 95, 4, 74, 1130, 541)
+if x > -1 then
+toast("question!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+end
+
+
+function hand()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0x74543c,"-1|9|0x6c0e1d,16|-3|0x941e2d,9|-16|0x901c2a,-18|0|0x661220,13|12|0xed9a51", 85, 2, 3, 1122, 629)
+if x > -1 then
+toast("hand!!")
+touchDown(0, x-50, y-60)
+mSleep(50)
+touchUp(0, x-50, y-60)
+x = -1
+y = -1
+end
+keepScreen(false)
+mSleep(200);
+end
+
+
+function noChractPic()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0x50231b,"20|5|0x4f241c,41|0|0x4c221a,4|22|0x602e25,39|19|0x54271e", 95, 262, 19, 344, 54)
+m, n = findMultiColorInRegionFuzzy(0xd6c4a1,"6|5|0x3e3424,-7|13|0x7c6742,11|25|0x332816,20|16|0x986530", 95, 14, 22, 45, 55)
+j, k = findMultiColorInRegionFuzzy(0xe9d6d0,"-12|-16|0xa34859,11|-12|0xe7c4c3,18|8|0x6d2a46,5|17|0x672f38,-12|11|0xc99a94", 95, 4, 6, 1129, 541)
+if x <= -1 and m <= -1 and j <= -1 then
+touchDown(0, 568, 1)
+mSleep(50)
+touchUp(0, 568, 1)
+end
+keepScreen(false)
+mSleep(1000);
+end
+
+
+function speedup()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0xede8d5,"4|10|0x241a1c,25|4|0xf4efdc,22|-1|0x22180f,13|16|0x3236d8,-8|14|0x6f675a", 95, 963, 42, 1075, 108)
+if x>-1 then 
+toast("speedup!!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+mSleep(200);
+end
+
+
+function close()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0xe9d6d0,"-12|-16|0xa34859,11|-12|0xe7c4c3,18|8|0x6d2a46,5|17|0x672f38,-12|11|0xc99a94", 87, 4, 6, 1129, 541)
+if x>-1 then 
+toast("close!!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+mSleep(200);
+end
+
+
+function jump()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0x8f8779,"-8|-1|0xe1dbc9,23|-3|0xaba495,24|10|0x746c5f,5|10|0xd6d0bf,1|11|0x3d5dbd", 95, 727, 443, 861, 515)
+if x>-1 then 
+toast("jump!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+mSleep(200);
+end
+
+
+function eyes()
+keepScreen(true)
+x, y = findMultiColorInRegionFuzzy(0xfcfcfc,"-16|-10|0x736d70,-44|-37|0xf2da27,-42|31|0xe1ba00,-9|48|0xe9b400,24|40|0x493408,42|-22|0x372d2e", 95, 4, 66, 1135, 537)
+if x > -1 then
+toast("eyes!!")
+touchDown(0, x, y)
+mSleep(50)
+touchUp(0, x, y)
+x = -1
+y = -1
+end
+keepScreen(false)
+end
